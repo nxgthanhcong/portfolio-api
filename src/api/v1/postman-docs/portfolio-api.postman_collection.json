@@ -17,12 +17,10 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:4001/api/v1/portfolio/get-about-infomation",
-					"protocol": "http",
+					"raw": "{{host}}/api/v1/portfolio/get-about-infomation",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
-					"port": "4001",
 					"path": [
 						"api",
 						"v1",
@@ -44,12 +42,10 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:4001/api/v1/portfolio/get-experiences",
-					"protocol": "http",
+					"raw": "{{host}}/api/v1/portfolio/get-experiences",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
-					"port": "4001",
 					"path": [
 						"api",
 						"v1",
@@ -66,12 +62,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:4001/api/v1/portfolio/get-current-job-infomation",
-					"protocol": "http",
+					"raw": "{{host}}/api/v1/portfolio/get-current-job-infomation",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
-					"port": "4001",
 					"path": [
 						"api",
 						"v1",
