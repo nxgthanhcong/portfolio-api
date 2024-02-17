@@ -3,49 +3,66 @@ const portfolioBusiness = () => {
     getCurrentJobInfomation: () => {
       return {
         role: "Software Engineer",
-        company: "Fpt Telecom",
+        company: "FptTelecom",
         description:
-          "I build modules & web application meet the complex business requirements, high fault tolerance, manipulate large data.",
+          "As a backend developer, I architect robust and secure systems that power seamless, ensuring every interaction is not only right-perfect but also responsive, and protected against potential threats.",
       };
     },
+    // <span className="text-slate-200">Tumblr</span>
     getAboutInfomation: () => {
       return {
         content: `
         <p className="mb-4 text-xl text-slate-400">
-        Graduated at 2021, I decided to try my hand at creating custom
-        <span className="text-slate-200">Tumblr</span>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged.
+          In late 2021 internship at <span className="text-slate-200">TopOnTech</span>, I developed crucial problem-solving skills, learning to visualize implementation steps. Additionally, I improved my ability to read technical English documentation, enhancing my overall proficiency.
+        </p>
+      <p className="mb-4 text-xl text-slate-400">
+      Upon returning to complete my project and graduate from university, I commenced working at <span className="text-slate-200">FPTTelecom</span> in early 2022. Here, I focused on developing integrated modules for the internal system, seamlessly bridging interfaces, API services, and database operations. Directly engaging with users, I meticulously planned my processes, prioritizing ease of maintenance, scalability, and skill enhancement in writing SQL queries. My role involved working across various layers of the system, ensuring a smooth flow from frontend to backend functionalities.
       </p>
       <p className="mb-4 text-xl text-slate-400">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book.
-        <span className="text-slate-200">Spotify API</span>.
-      </p>
-      <p className="mb-4 text-xl text-slate-400">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley.
-        <span className="text-slate-200">Korok seeds</span>.
+      At the end of 2023, I decided to temporarily pause my journey at <span className="text-slate-200">FPTTelecom</span> and embarked on a quest to seek out a new environment where I could broaden my horizons and expand my knowledge base. By venturing beyond the familiar confines of my current workplace, I hoped to engage with new challenges and experiences.
       </p>
         `,
       };
     },
     getExperiences() {
       return [
+        // {
+        //   startDate: "Nov 2023",
+        //   endDate: "Present",
+        //   position: "Software Engineer",
+        //   company: "VietCredit",
+        //   description: "sample desciption",
+        //   tags: [
+        //     {
+        //       title: "Asp.net framework",
+        //     },
+        //     {
+        //       title: "Asp.netcore",
+        //     },
+        //     {
+        //       title: "SqlServer",
+        //     },
+        //     {
+        //       title: "JQuery",
+        //     },
+        //     {
+        //       title: "Html",
+        //     },
+        //     {
+        //       title: "Css",
+        //     },
+        //     {
+        //       title: "Reactjs",
+        //     },
+        //   ],
+        // },
         {
           startDate: "Mar 2022",
           endDate: "Present",
-          position: "1Backend developer",
+          position: "Backend developer",
           company: "FptTelecom",
           description:
-            "Deliver high-quality modules, application meet the complex business requirements, highability for handle failure. Write own library for fasting code, handle all security context. Build strong logging applications for tracking business steps",
+            "I focused on developing integrated modules for the internal system, seamlessly bridging interfaces, API services, and database operations. Directly engaging with users, I meticulously planned my processes, prioritizing ease of maintenance, scalability. My role involved working across various layers of the system, ensuring a smooth flow from frontend to backend functionalities.",
           tags: [
             {
               title: "Asp.net framework",
@@ -66,60 +83,12 @@ const portfolioBusiness = () => {
               title: "Css",
             },
             {
+              title: "Javascript",
+            },
+            {
               title: "Reactjs",
             },
           ],
-        },
-        {
-          startDate: "Mar",
-          endDate: "July 2021",
-          position: "Intern",
-          company: "TopOnTech",
-          description:
-            "Maintain ERP system & other outsourcing projects, build cronjob crawl web data",
-          tags: [
-            {
-              title: "Asp.net",
-            },
-            {
-              title: "Asp.netcore",
-            },
-            {
-              title: "SqlServer",
-            },
-          ],
-        },
-
-        {
-          startDate: "Dec 2021",
-          endDate: "Mar 2022",
-          position: "Lastyear student",
-          company: "Home",
-          description:
-            "Build somes portfolio project for practicing css skill, learning more about reponsive, apply code struct for ReactJs projects, using CssModule,...",
-          tags: [
-            {
-              title: "Html",
-            },
-            {
-              title: "Css",
-            },
-            {
-              title: "Js",
-            },
-            {
-              title: "ReactJs",
-            },
-          ],
-        },
-
-        {
-          startDate: "July",
-          endDate: "Dec 2021",
-          position: "Lastyear student",
-          company: "Home",
-          description:
-            "Making Ecomerce graduation thesis application, combining multiple tech stack. Learning researching new technologies and apply to the project. Working with third api party",
           links: [
             {
               title: "MusicKit.js",
@@ -134,18 +103,23 @@ const portfolioBusiness = () => {
                 `,
             },
           ],
+        },
+        {
+          startDate: "Mar",
+          endDate: "July 2021",
+          position: "Intern",
+          company: "TopOnTech",
+          description:
+            "I maintain our ERP system and oversee outsourcing projects. I ensure system stability and efficiency while addressing issues. Specializing in cronjobs, I gather web data for insights. Actively researching new tech.",
           tags: [
+            {
+              title: "Asp.net",
+            },
             {
               title: "Asp.netcore",
             },
             {
               title: "SqlServer",
-            },
-            {
-              title: "Reactjs",
-            },
-            {
-              title: "Docker",
             },
           ],
         },
